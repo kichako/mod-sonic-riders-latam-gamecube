@@ -66,6 +66,8 @@ Antes de comenzar, asegúrate de contar con:
 
 Este paso asegura que los archivos modificados del mod sobrescriban correctamente los del juego.
 
+*Nota: Recuerda no copiar o eliminar de los archivos el README.md si es que bajaste el mod desde GitHub, si lo bajaste desde GameBanana ignora esta nota.*
+
 ---
 
 ## 🟩 Paso 5 — Reconstruir la ISO modificada
