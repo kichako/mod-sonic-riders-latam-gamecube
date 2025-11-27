@@ -23,7 +23,7 @@ mod-sonic-riders-latam-gamecube/
 - `*.AFS` son bancos de audio empaquetados.
 - `*.SFD` almacena videos del juego (formato Sofdec).
 
-Si solo quieres aplicar el mod, copia el contenido de `files/` dentro de la carpeta del juego que extrajiste en los pasos siguientes.
+Si solo quieres aplicar el mod, copia el contenido de `files/` dentro de la carpeta del juego que extrajiste siguiendo los pasos de esta guía.
 
 Esta guía explica cómo aplicar correctamente el mod de doblaje al español latino a una ISO limpia de **Sonic Riders (Nintendo GameCube)** utilizando **GC Rebuilder**, con la alternativa de hacer la extracción desde **Dolphin Emulator**.
 
@@ -87,7 +87,8 @@ Antes de comenzar, asegúrate de contar con:
 1. Abre **Dolphin**.
 2. Agrega tu ISO de Sonic Riders si no aparece en la lista.
 3. Haz clic derecho sobre el juego.
-4. Selecciona **"Extract Files…"** (Dependiendo de la versión puede aparecer como *"Extract Disc Contents"*).
+4. Selecciona **"Extract Files…"**  
+   *(en algunas versiones aparece como "Extract Disc Contents")*.
 5. Elige una carpeta para extraer los archivos.
 6. Espera a que Dolphin termine la extracción.
 
@@ -98,9 +99,9 @@ Ambos métodos generan una carpeta con la estructura interna del juego necesaria
 ## 🟩 Paso 4 — Reemplazar los archivos originales con los del mod
 
 1. Abre la carpeta extraída del juego (desde Dolphin o GC Rebuilder).
-2. Abre la carpeta donde extrajiste el contenido del mod.
-3. Copia **todos** los archivos del mod.
-4. Pégalos dentro de la carpeta extraída del juego.
+2. Abre la carpeta que contiene el contenido del mod.
+3. Copia **todos** los archivos dentro de `files/`.
+4. Pégalos en la carpeta extraída del juego.
 5. Cuando Windows pregunte si deseas reemplazar archivos, selecciona:  
    ✔️ **Reemplazar los archivos en el destino**
 
@@ -114,14 +115,14 @@ Ambos métodos generan una carpeta con la estructura interna del juego necesaria
 1. Abre **GC Rebuilder**.
 2. Selecciona:  
    **Root → Open…**
-3. Elige la carpeta donde ya reemplazaste los archivos del juego.
+3. Elige la carpeta donde reemplazaste los archivos del juego.
 4. Luego selecciona:  
    **Image → Rebuild…**
 5. Elige una ubicación y un nombre para la nueva ISO, por ejemplo:  
    `Sonic Riders LATAM.iso`
 6. Espera a que termine el proceso.
 
-Una vez finalizado, la nueva ISO incluirá el doblaje latino.
+Una vez finalizado, la ISO estará lista con el doblaje aplicado.
 
 ---
 
@@ -145,7 +146,7 @@ Puedes usar cualquier método compatible con ISOs de GameCube, como:
 - No elimines ni renombres archivos dentro de la estructura del juego.  
 - Asegúrate de realizar el reemplazo de archivos correctamente.  
 - Si el rebuild falla, usa rutas cortas como:  
-  `C:/Riders/`  
+  `C:/Riders/`
 - Dolphin solo sirve para **extraer**, no para reconstruir la ISO.
 
 ---
