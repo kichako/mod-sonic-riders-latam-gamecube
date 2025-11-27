@@ -12,8 +12,7 @@ Este documento explica cómo instalar manualmente el mod de doblaje al español 
 - El mod descargado desde:
   - GitHub: contiene carpeta `mod/`  
   - GameBanana: contiene **un solo archivo comprimido con los archivos del mod** (ignorar instrucciones sobre `mod/` en este caso).
-- La herramienta **GCR (GameCube Rebuilder)** o similar.
-- **Opcional:** Dolphin Emulator para extraer los archivos del juego.
+- Dolphin Emulator para extraer los archivos del juego.
 
 ---
 
@@ -21,31 +20,26 @@ Este documento explica cómo instalar manualmente el mod de doblaje al español 
 
 Puedes hacerlo de dos maneras:
 
-### ✔️ Método A – Usando Dolphin
+### ✔️ Usando Dolphin
 1. Abre **Dolphin**.
 2. Haz clic derecho en tu copia de **Sonic Riders**.
-3. Selecciona **"Extraer archivo del disco"** o **"Properties" → "Filesystem" → "Extract Files"**.
-4. Guarda los archivos extraídos en una carpeta.
-
-### ✔️ Método B – Usando GCR (GameCube Rebuilder)
-1. Abre **GCR**.
-2. Ve a **File → Open** y selecciona el ISO/GCM de Sonic Riders.
-3. Haz clic en **Root → Extract** para extraer todos los archivos.
+3. Selecciona **"Properties" → "Sistema de archivos" → seleccionas el "disco" y le das a "Extraer archivos"**.
+4. Guarda los archivos extraídos en una carpeta dentro de tu carpeta de juegos de Dolphin.
 
 ---
 
 ## 📁 2. Reemplazar archivos con el mod
 
 ### Si descargaste el mod desde **GitHub**
-El repositorio incluye una carpeta llamada **`files/`**.  
+El repositorio incluye una carpeta llamada **`mod/`**.  
 Debes:
 
 1. Abrir la carpeta del juego ya extraído.
-2. Copiar y **reemplazar** los archivos con los de la carpeta `files/` del mod.
+2. Copiar y **reemplazar** los archivos con los de la carpeta `mod/` del mod.
    - Respeta la estructura de carpetas.
 
 ### Si descargaste el mod desde **GameBanana**
-La descarga incluye **un solo archivo comprimido que contiene directamente los archivos del mod**, sin carpeta `files/`.
+La descarga incluye **un solo archivo comprimido que contiene directamente los archivos del mod**, sin carpeta `mod/`.
 
 En este caso:
 
@@ -57,31 +51,13 @@ En este caso:
 
 ## 🔧 3. Reconstruir el juego (ISO/GCM)
 
-Puedes reconstruir la ISO modificada **tanto con GCR como con Dolphin**.
-
----
-
-### ✔️ MÉTODO A – Reconstruir usando Dolphin
-
 Dolphin permite reconstruir el ISO automáticamente si vuelves a empaquetarlo:
 
-1. Ve a **Dolphin → Tools → Load GameCube Main Menu** *(opcional)*.
-2. En la barra superior, abre **Tools → Build GameCube ISO**.
-3. Selecciona la carpeta donde tienes el juego con los archivos modificados.
-4. Dolphin generará un nuevo **ISO reconstruido** listo para usar.
-
-> Nota: En algunas versiones, esta función aparece como **"Generate GameCube Disc Image"**.
-
----
-
-### ✔️ MÉTODO B – Reconstruir usando GCR (GameCube Rebuilder)
-
-1. Abre **GCR**.
-2. Ve a **File → Open** y selecciona tu ISO/GCM original.
-3. En el panel de archivos, asegúrate de que los archivos modificados están cargados.
-4. Si hace falta, usa **Root → Import** para importar archivos modificados manualmente.
-5. Ve a **Image → Rebuild**.
-6. GCR generará una nueva ISO/GCM.
+1. Asegurate que tengas agregada la ruta donde tengas tus juegos en **Dolphin**. y activada la opción de "Buscar en subcarpetas".
+2. Te deberia salir el juego descomprimido, este suele aparecer con un tamaño de 000B.
+3. Selecciona el juego descomprido en Dolphin y haz clic derecho.
+4. Selecciona "Covertir archivo", selecciona "ISO" o "GCM" y guarda el archivo en la misma carpeta.
+5. Dolphin generará un nuevo **ISO reconstruido** listo para usar.
 
 ---
 
@@ -90,10 +66,7 @@ Dolphin permite reconstruir el ISO automáticamente si vuelves a empaquetarlo:
 Puedes usar:
 
 - **Dolphin Emulator** – Abre el ISO modificado y juega.
-- **Hardware real (GameCube/Wii)** usando:
-  - Swiss  
-  - SD Gecko  
-  - ODE (GC Loader / WiiKey Fusion)  
+- **Hardware real (GameCube/Wii)**
 
 ---
 
