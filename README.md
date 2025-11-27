@@ -55,13 +55,33 @@ En este caso:
 
 ---
 
-## 📦 3. Reconstruir el juego (GCR)
+## 🔧 3. Reconstruir el juego (ISO/GCM)
+
+Puedes reconstruir la ISO modificada **tanto con GCR como con Dolphin**.
+
+---
+
+### ✔️ MÉTODO A – Reconstruir usando Dolphin
+
+Dolphin permite reconstruir el ISO automáticamente si vuelves a empaquetarlo:
+
+1. Ve a **Dolphin → Tools → Load GameCube Main Menu** *(opcional)*.
+2. En la barra superior, abre **Tools → Build GameCube ISO**.
+3. Selecciona la carpeta donde tienes el juego con los archivos modificados.
+4. Dolphin generará un nuevo **ISO reconstruido** listo para usar.
+
+> Nota: En algunas versiones, esta función aparece como **"Generate GameCube Disc Image"**.
+
+---
+
+### ✔️ MÉTODO B – Reconstruir usando GCR (GameCube Rebuilder)
 
 1. Abre **GCR**.
-2. Ve a **File → Open** y selecciona la carpeta o el archivo GCM/ISO original.
-3. Asegúrate de que los archivos del juego estén actualizados en la ventana de GCR.
-4. Ve a **Root → Import** y selecciona los archivos modificados si hace falta.
-5. Finalmente, usa **Image → Rebuild** para generar el nuevo archivo `.iso` o `.gcm`.
+2. Ve a **File → Open** y selecciona tu ISO/GCM original.
+3. En el panel de archivos, asegúrate de que los archivos modificados están cargados.
+4. Si hace falta, usa **Root → Import** para importar archivos modificados manualmente.
+5. Ve a **Image → Rebuild**.
+6. GCR generará una nueva ISO/GCM.
 
 ---
 
