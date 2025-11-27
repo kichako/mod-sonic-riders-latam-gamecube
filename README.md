@@ -80,7 +80,3 @@ Puedes usar:
 ## ✔️ ¡Listo!
 
 Ya tendrás Sonic Riders con **doblaje al español latinoamericano** funcionando correctamente.
-
----
-
-Si necesitas agregar imágenes, GIFs o pasos más detallados, puedo ayudarte a formatearlo aún más para GitHub o tu página del proyecto.
